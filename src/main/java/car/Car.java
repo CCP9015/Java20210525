@@ -9,5 +9,9 @@ public class Car {
         this.id = id;
         enter = new Date();
     }
+    public Car(String id,String time){
+        this.id = id;
+
+    }
 }
 
