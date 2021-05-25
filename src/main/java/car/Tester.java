@@ -8,6 +8,8 @@ public class Tester {
         System.out.println(c1.enter);
 
         Date now = new Date();
-
+        System.out.println(now.getTime());
+        long dis = now.getTime() - c1.enter.getTime();
+        System.out.println(dis);
     }
 }
